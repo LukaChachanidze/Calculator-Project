@@ -35,10 +35,11 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:background="#6D6D6D"
+            android:background="@color/cardview_dark_background"
             android:gravity="center"
+            android:shadowColor="@color/black"
             android:text="CLEAR"
-            android:textColor="@color/white"
+            android:textColor="?android:attr/colorPressedHighlight"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -47,11 +48,11 @@
             android:layout_height="100dp"
             android:layout_marginStart="1dp"
             android:layout_weight="1"
-            android:background="#6D6D6D"
+            android:background="@color/cardview_dark_background"
             android:gravity="center"
             android:onClick="operationClick"
             android:text="/"
-            android:textColor="@color/white"
+            android:textColor="@android:color/holo_orange_dark"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -77,7 +78,7 @@
                 android:gravity="center"
                 android:onClick="numberClick"
                 android:text="7"
-                android:textColor="@color/white"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="30sp" />
 
             <TextView
@@ -87,7 +88,7 @@
                 android:gravity="center"
                 android:onClick="numberClick"
                 android:text="8"
-                android:textColor="@color/white"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="30sp" />
 
             <TextView
@@ -97,18 +98,18 @@
                 android:gravity="center"
                 android:onClick="numberClick"
                 android:text="9"
-                android:textColor="@color/white"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="30sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                android:background="#292929"
+                android:background="#black"
                 android:gravity="center"
                 android:onClick="operationClick"
                 android:text="*"
-                android:textColor="@color/white"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="30sp" />
 
         </TableRow>
@@ -125,7 +126,7 @@
                 android:gravity="center"
                 android:onClick="numberClick"
                 android:text="4"
-                android:textColor="@color/white"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="30sp" />
 
             <TextView
@@ -135,7 +136,7 @@
                 android:gravity="center"
                 android:onClick="numberClick"
                 android:text="5"
-                android:textColor="@color/white"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="30sp" />
 
             <TextView
@@ -145,18 +146,18 @@
                 android:gravity="center"
                 android:onClick="numberClick"
                 android:text="6"
-                android:textColor="@color/white"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="30sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                android:background="#292929"
+                android:background="#black"
                 android:gravity="center"
                 android:onClick="operationClick"
                 android:text="-"
-                android:textColor="@color/white"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="30sp" />
 
         </TableRow>
@@ -173,7 +174,7 @@
                 android:gravity="center"
                 android:onClick="numberClick"
                 android:text="1"
-                android:textColor="@color/white"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="30sp" />
 
             <TextView
@@ -183,7 +184,7 @@
                 android:gravity="center"
                 android:onClick="numberClick"
                 android:text="2"
-                android:textColor="@color/white"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="30sp" />
 
             <TextView
@@ -193,18 +194,18 @@
                 android:gravity="center"
                 android:onClick="numberClick"
                 android:text="3"
-                android:textColor="@color/white"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="30sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                android:background="#292929"
+                android:background="#black"
                 android:gravity="center"
                 android:onClick="operationClick"
                 android:text="+"
-                android:textColor="@color/white"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="30sp" />
 
         </TableRow>
@@ -220,7 +221,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="."
-                android:textColor="@color/white"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="30sp" />
 
             <TextView
@@ -230,7 +231,7 @@
                 android:gravity="center"
                 android:onClick="numberClick"
                 android:text="0"
-                android:textColor="@color/white"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="30sp" />
 
             <TextView
@@ -239,18 +240,18 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="DEL"
-                android:textColor="@color/white"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="14sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                android:background="#FF0000"
+                android:background="black"
                 android:gravity="center"
                 android:onClick="equalsClick"
                 android:text="="
-                android:textColor="@color/white"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="30sp" />
 
         </TableRow>
